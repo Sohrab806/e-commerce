@@ -4,4 +4,5 @@ const {electronicsControllerAll,electronicsList}=require('../Controller/electron
 router.post('/entry',electronicsControllerAll)
 router.get('/list',electronicsList)
 
+
 module.exports=router

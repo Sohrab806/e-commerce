@@ -35,9 +35,9 @@ const electronicsList=async(_req,res,next)=>{
 
     try{
 
-        const electro=await Electronics.find()
-        console.log(electro)
-        return res.status(200).json({message:" here all the data",electro})
+        const products=await Electronics.find()
+        console.log(products)
+        return res.status(200).json({message:" here all the data",products})
     }catch(e){
   next(e)
     }
